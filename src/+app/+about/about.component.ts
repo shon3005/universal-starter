@@ -8,7 +8,7 @@ import { Component, Inject, ChangeDetectionStrategy, ViewEncapsulation } from '@
 })
 export class AboutComponent {
   constructor(@Inject('req') req: any) {
-    // console.log('req',  req)
+    console.log('req',  req.path)
 
   }
 }
